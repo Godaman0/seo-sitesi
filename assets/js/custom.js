@@ -49,10 +49,62 @@
     });
 
 
-    //Owl carousel
+    //////////////////////////////// Owl carousel ///////////////////////////////////
+
+
+    // review-active
+    $('#owl-demo').owlCarousel({
+        loop: true,
+        margin: 0,
+        items: 1,
+        autoplay: true,
+        navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+        nav: true,
+        dots: false,
+        autoplayHoverPause: true,
+        autoplaySpeed: 800,
+
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: false,
+            },
+            767: {
+                items: 1,
+                dots: false,
+                nav: false,
+            },
+            992: {
+                items: 1,
+                nav: false
+            },
+            1200: {
+                items: 1,
+                nav: false
+            },
+            1500: {
+                items: 1
+            }
+        }
+    });
 
     $(document).ready(function () {
-        $('#carouselExampleSlidesOnly').carousel()
+        $("#owl-demo").owlCarousel({
+            navigation: true, // Show next and prev buttons
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            singleItem: true
+
+            // "singleItem:true" is a shortcut for:
+            // items : 1, 
+            // itemsDesktop : false,
+            // itemsDesktopSmall : false,
+            // itemsTablet: false,
+            // itemsMobile : false
+
+        });
+
     });
 
 
