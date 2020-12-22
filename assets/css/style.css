@@ -48,14 +48,16 @@ body {
   text-align: center;
   border-radius: 50px;
   outline: none;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style-type: none;
 }
 
 .boxed-btn:hover {
-  background-color: #FF008C !important;
-  -webkit-transition: ease 0.6s all;
-  transition: ease 0.6s all;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#ff6357), to(#FF008C));
+  background: linear-gradient(to right, #ff6357 0%, #FF008C 100%);
+  -webkit-transition: linear 0.6s all;
+  transition: linear 0.6s all;
 }
 
 .main-header-area {
@@ -290,6 +292,18 @@ body {
   font-weight: 400;
 }
 
+.section-case-study .owl-carousel .item .subheading h4 a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-case-study .owl-carousel .item .subheading h4 a:hover {
+  color: #FF008C;
+  -webkit-transition: ease .5s all;
+  transition: ease .5s all;
+}
+
 .section-case-study .owl-carousel .item .subheading p {
   color: #798896;
 }
@@ -300,6 +314,10 @@ body {
   cursor: pointer;
   background-size: cover;
   z-index: -999;
+}
+
+.section-case-study .owl-carousel .item:hover .subheading {
+  background-color: #1A344C;
 }
 
 .section-case-study .body_shap_top img {
@@ -353,6 +371,12 @@ body {
   background: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+  border-bottom: solid 1px #dedede;
+}
+
+.section-accordion .accordion-question .panel-collapse {
+  -webkit-transition: linear .3s all;
+  transition: linear .3s all;
 }
 
 .section-accordion .accordion-question .panel-group > .panel:first-child .panel-heading {
@@ -400,7 +424,7 @@ body {
 }
 
 .section-accordion .accordion-question .panel-heading a:before {
-  content: "\f3d8";
+  content: "\f078";
   position: absolute;
   font-family: "Material Icons";
   left: 5px;
@@ -421,7 +445,7 @@ body {
 }
 
 .section-accordion .accordion-question #bs-collapse .panel-heading a:after {
-  content: "";
+  content: " ";
   font-size: 24px;
   position: absolute;
   font-family: "Material Icons";
@@ -434,7 +458,7 @@ body {
 }
 
 .section-accordion .accordion-question #bs-collapse .panel-heading.active a:after {
-  content: "";
+  content: "\f077";
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: ease 0.6s all;
@@ -442,7 +466,7 @@ body {
 }
 
 .section-accordion .accordion-question #accordion .panel-heading a:before {
-  content: "";
+  content: "\f078";
   font-size: 24px;
   position: absolute;
   font-family: "Material Icons";
