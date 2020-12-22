@@ -60,6 +60,12 @@ body {
   transition: linear 0.6s all;
 }
 
+.navbar {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
 .main-header-area {
   padding: 25px 135px;
 }
