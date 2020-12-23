@@ -14,12 +14,12 @@ footer {
 
             .lets_projects {
                 h3 {
-                    color: #fff;
+                    color: $white;
                     font-size: 30px;
                     font-weight: 400;
 
                     a {
-                        color: #ff008c;
+                        color: $pink-button;
                         text-decoration: none;
                     }
                 }
@@ -30,7 +30,7 @@ footer {
                 h3 {
                     font-size: 30px;
                     font-weight: 300;
-                    color: #fff;
+                    color: $white;
                 }
 
                 a {
@@ -50,7 +50,7 @@ footer {
             .footer_logo {
                 font-size: 22px;
                 font-weight: 400;
-                color: #fff;
+                color: $white;
                 text-transform: capitalize;
                 margin-bottom: 40px;
 
@@ -95,8 +95,8 @@ footer {
                             border: 1px solid #1a344c;
 
                             &:hover{
-                                background: linear-gradient(to right, #ff008c 0%, #ff6357 100%);
-                                color: #fff;
+                                background: linear-gradient(to right, $pink-button 0%, #ff6357 100%);
+                                color: $white;
                                 
                             }
                         }
@@ -114,7 +114,7 @@ footer {
                     background: transparent;
                     padding-left: 20px;
                     font-size: 15px;
-                    color: #fff;
+                    color: $white;
                     border: 1px solid #334a60;
                     border-radius: 30px;
                     outline: none;
@@ -130,11 +130,11 @@ footer {
                     right: 0;
                     height: 40px;
                     border: none;
-                    color: #fff;
+                    color: $white;
                     padding: 10px 20px;
                     cursor: pointer;
                     border-radius: 30px;
-                    background: linear-gradient(to right, #ff008c 0%, #ff6357 100%);
+                    background: linear-gradient(to right, $pink-button 0%, #ff6357 100%);
                     top: 5px;
                     right: 5px;
                     font-size: 13px;
@@ -146,7 +146,7 @@ footer {
         .footer_title {
             font-size: 18px;
             font-weight: 500;
-            color: #fff;
+            color: $white;
             text-transform: capitalize;
             margin-bottom: 40px;
         }
@@ -165,7 +165,7 @@ footer {
                     text-decoration: none;
 
                     &:hover {
-                        color: #ff008c;
+                        color: $pink-button;
                     }
                 }
             }

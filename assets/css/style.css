@@ -612,7 +612,7 @@ footer .container .pro-border .lets_projects h3 {
 }
 
 footer .container .pro-border .lets_projects h3 a {
-  color: #ff008c;
+  color: #FF008C;
   text-decoration: none;
 }
 
@@ -689,8 +689,8 @@ footer .footer_top .footer_widget .socail_links ul li a {
 }
 
 footer .footer_top .footer_widget .socail_links ul li a:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#ff008c), to(#ff6357));
-  background: linear-gradient(to right, #ff008c 0%, #ff6357 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#FF008C), to(#ff6357));
+  background: linear-gradient(to right, #FF008C 0%, #ff6357 100%);
   color: #fff;
 }
 
@@ -726,8 +726,8 @@ footer .footer_top .footer_widget form button {
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 30px;
-  background: -webkit-gradient(linear, left top, right top, from(#ff008c), to(#ff6357));
-  background: linear-gradient(to right, #ff008c 0%, #ff6357 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#FF008C), to(#ff6357));
+  background: linear-gradient(to right, #FF008C 0%, #ff6357 100%);
   top: 5px;
   right: 5px;
   font-size: 13px;
@@ -761,7 +761,7 @@ footer .footer_top ul li a {
 }
 
 footer .footer_top ul li a:hover {
-  color: #ff008c;
+  color: #FF008C;
 }
 
 footer .copy-right-text {
